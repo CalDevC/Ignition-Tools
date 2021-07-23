@@ -12,10 +12,10 @@ This script will traverse a file structure and change specified alarm attributes
 Fill in the constant variables at the top of this file with the information for your project and run the script in your project's script console.
 
 ### tag_generator.py
-####description:
+#### description:
 This script will generate tags that are named after each element in a provided list
 
-####usage instructions:
+#### usage instructions:
 Fill in the variables at the top of this file with the information for your project 
 and run the script in your project's script console.
 
