@@ -13,55 +13,10 @@ FOLDER_NAME = "" # the path where you want the tags to be generated
 nameArr = [] # the array that holds the names of the tags to be generated
 
 # Vairables
-path = "[Ignition_ign_iosrv02.upi.net_KMCALProvider]" + FOLDER_NAME #Where to store new tags
+path = "" + FOLDER_NAME #Where to store new tags
 collisionPolicy = "o" #Overwrite tags of the same name
 typeDict = {
-	"OP": "Percent",
-	"PV": "Float",
-	"SP": "Float",
-	"CAS": "Float",
-	"OAUTO": "Float",
-	"PAUTO": "Float",
-	"OMAN": "Float",
-	"PMAN": "Float",
-	"PVHH": "Float",
-	"ALHIFL": "Float",
-	"AT": "Bool",
-	"PR": "Int",
-	"CVOPER": "Float",
-	"OPERCASRATREQ": "Bool",
-	"OPMAX": "Float",
-	"PROGCASRATREQ": "Bool",
-	"SPOPER": "Float",
-	"PVLL": "Bool",
-	"PROGAUTOREQ": "Bool",
-	"PROGOPERREQ": "Bool",
-	"CVEU": "Float",
-	"OPERMANUALREQ": "Bool",
-	"MANUAL": "Bool",
-	"CASRAT": "Bool",
-	"SPMAX": "Float",
-	"OPERPROGREQ": "Bool",
-	"PROGMANUALREQ": "Bool",
-	"OPMIN": "Float",
-	"SPMIN": "Float",
-	"PVLOTP": "Float",
-	"PVHHALARM": "Bool",
-	"PVMIN": "Float",
-	"PVMAX": "Float",
-	"PVHITP": "Float",
-	"PVLLALARM": "Bool",
-	"AUTO": "Bool",
-	"ALLOFL": "Bool",
-	"AV": "Int",
-	"PROGOPER": "Bool",
-	"PVLLALARMALARM": "Bool",
-	"RESETCMD": "Bool",
-	"PROGPROGREQ": "Bool",
-	"PTINAL": "Bool",
-	"STRTSTOP": "Bool",
-	"OPEROPERREQ": "Bool",
-	"OPERAUTOREQ": "Bool"
+	
 }
 
 #Initial tag information
